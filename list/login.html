@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<title>Login Page</title>
+</head>
+<body>
+	<div class="align">
+		<img class="logo" src="../img/vibe.png">
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" href="#login">Login</a>
+				<a id="register" href="#register">Register</a>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input name="id" placeholder="Username" type="text">
+							<img src="../img/user.svg">
+						</div>
+						<div class="input">
+							<input name="pass" placeholder="Password" type="password">
+							<img src="../img/pass.svg">
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Remember me</span>
+						</label>
+					</div>
+					<!-- <input type="button" > -->
+					<button value="Login" onclick="pasuser(this.form)">Login</button>
+				</form>
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input placeholder="Email" type="text">
+							<img src="../img/mail.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Username" type="text">
+							<img src="../img/user.svg">
+						</div>
+						<div class="input">
+							<input placeholder="Password" type="password">
+							<img src="../img/pass.svg">
+						</div>
+					</div>
+					<button>Register</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/login.js"></script>
+</body>
+</html>
